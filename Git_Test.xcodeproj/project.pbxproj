@@ -21,6 +21,7 @@
 		FBBB694019D7CB75004F1EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBB692219D7CB74004F1EDF /* UIKit.framework */; };
 		FBBB694819D7CB75004F1EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBBB694619D7CB75004F1EDF /* InfoPlist.strings */; };
 		FBBB694A19D7CB75004F1EDF /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBB694919D7CB75004F1EDF /* Git_TestTests.m */; };
+		FBBB695819D7D155004F1EDF /* PA_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBB695719D7D155004F1EDF /* PA_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FBBB694519D7CB75004F1EDF /* Git_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git_TestTests-Info.plist"; sourceTree = "<group>"; };
 		FBBB694719D7CB75004F1EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FBBB694919D7CB75004F1EDF /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FBBB695619D7D155004F1EDF /* PA_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PA_Test.h; sourceTree = "<group>"; };
+		FBBB695719D7D155004F1EDF /* PA_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PA_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				FBBB693419D7CB75004F1EDF /* PA_ViewController.m */,
 				FBBB693619D7CB75004F1EDF /* Images.xcassets */,
 				FBBB692519D7CB74004F1EDF /* Supporting Files */,
+				FBBB695619D7D155004F1EDF /* PA_Test.h */,
+				FBBB695719D7D155004F1EDF /* PA_Test.m */,
 			);
 			path = Git_Test;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBB695819D7D155004F1EDF /* PA_Test.m in Sources */,
 				FBBB692B19D7CB74004F1EDF /* main.m in Sources */,
 				FBBB693519D7CB75004F1EDF /* PA_ViewController.m in Sources */,
 				FBBB692F19D7CB74004F1EDF /* PA_AppDelegate.m in Sources */,
@@ -457,6 +463,7 @@
 				FBBB694F19D7CB75004F1EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBBB695019D7CB75004F1EDF /* Build configuration list for PBXNativeTarget "Git_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				FBBB695219D7CB75004F1EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
